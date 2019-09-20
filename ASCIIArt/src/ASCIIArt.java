@@ -17,11 +17,40 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	
+	public static void fire() {
+		System.out.println("                                      ");
+		System.out.println("           /\\            ^            ");
+		System.out.println("          /  \\   ^      / |           ");
+		System.out.println("         (    \\ / |_   /  \\           ");
+		System.out.println("          \\  ^ v    \\ |  ^ )_         ");
+		System.out.println("         _/  |\\  _/| |/ /|   \\^       ");
+		System.out.println("        (    \\ \\/  \\  v | \\   \\_      ");
+		System.out.println("        /   _/      )   /  )   |      ");
+		System.out.println("      ^|   (         |_/   |   /      ");
+		System.out.println("      (   |                /  /       ");
+		System.out.println("       \\  \\_              |^  )       ");
+		System.out.println("        |  /              v  |        ");
+		System.out.println("        \\_^|               \\_/        ");
+		
+	}
+	
+	public static void quote() {
+		System.out.println("\n\"The night is dark and full of terrors.\"");
+	}
+	
+	public static void speaker() {
+		System.out.println("                          --- Melisandre");
+	}
+	
+	public static void caption() {
+		System.out.print("\n             A burning fire             \n");
+	}
+	
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		fire();
+		quote();
+		speaker();
+		caption();
 	}
 }
